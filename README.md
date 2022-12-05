@@ -1,6 +1,12 @@
 # Twitter-climate-change-sentiment
 Tracking climate change sentiment through Twitter post statistics, primarily focusing on US-based users and users who deny the existence of climate change
 
+For more information on the original dataset used, please read the documentation and references found here:
+ https://doi.org/10.1016/j.eswa.2022.117541 and  
+ https://doi.org/10.1371/journal.pone.0274213  
+
+---  
+
 ## Project Guidelines
 The following project guidelines focus on teamwork, your project proposal, data sources, and data cleanup and analysis.
 
