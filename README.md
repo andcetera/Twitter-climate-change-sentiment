@@ -1,11 +1,37 @@
-# Twitter-climate-change-sentiment
-Tracking climate change sentiment through Twitter post statistics, primarily focusing on US-based users and users who deny the existence of climate change
+# Twitter Climate Change Sentiment
 
-For more information on the original dataset used, please read the documentation and references found here:
- https://doi.org/10.1016/j.eswa.2022.117541 and  
- https://doi.org/10.1371/journal.pone.0274213  
+Analyzing climate change sentiment through Twitter user post data, primarily focusing on US-based users and users who deny the existence of climate change
 
 ---  
+
+## Our Initial Research Questions:  
+
+1. What trends, if any, are present in climate related tweets? Has the stance, sentiment, or aggression of Tweets changed significantly in the 2010s?  
+
+2. What trends might we uncover by isolating the tweets denying climate change?  Are there any patterns to find that would help make sense of the spread of misinformation on social media?  
+
+3. What does Twitter activity look like before and after a major natural disaster?
+
+---
+
+## Project Structure
+explanation here...
+
+
+---
+## Our Original Datasets:
+
+### [Climate Change Twitter Data Set & Disasters Data Set](https://www.kaggle.com/datasets/deffro/the-climate-change-twitter-dataset)
+
+>"Abstract: This work creates and makes publicly available the most comprehensive dataset to date regarding climate change and human opinions via Twitter. It has the heftiest temporal coverage, spanning over 13 years, includes over 15 million tweets spatially distributed across the world, and provides the geolocation of most tweets. Seven dimensions of information are tied to each tweet, namely geolocation, user gender, climate change stance and sentiment, aggressiveness, deviations from historic temperature, and topic modeling, while accompanied by environmental disaster events information. These dimensions were produced by testing and evaluating a plethora of state-of-the-art machine learning algorithms and methods, both supervised and unsupervised, including BERT, RNN, LSTM, CNN, SVM, Naive Bayes, VADER, Textblob, Flair, and LDA."  
+
+>Dimitrios Effrosynidis, Alexandros I. Karasakalidis, Georgios Sylaios, Avi Arampatzis, The climate change Twitter dataset, Expert Systems with Applications, Volume 204, 2022, 117541, ISSN 0957-4174
+
+For more information on the original dataset used, please read the documentation and references found [here](https://doi.org/10.1016/j.eswa.2022.117541) and [here](https://doi.org/10.1371/journal.pone.0274213)
+
+---
+
+# Original Assignment Details:
 
 ## Project Guidelines
 The following project guidelines focus on teamwork, your project proposal, data sources, and data cleanup and analysis.
