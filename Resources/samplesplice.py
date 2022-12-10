@@ -7,6 +7,12 @@ path = "Climate_Twitter.csv"
 
 df = pd.read_csv(path)
 
+deniers = df.loc[df['stance'] == 'denier', ['created_at', 'lat', 'lng', 'topic', 'sentiment', 'stance', 'gender', 'temperature_ave', 'aggressiveness']]
+
+print(deniers.shape)
+
+deniers.to_csv('Climate_Deniers.csv', index=False)
+
 cols = ["created_at", "lat", "lng", "sentiment", "topic", "stance", "gender", "aggressiveness"]
 
 df_cut = df[cols]
