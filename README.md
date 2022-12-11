@@ -39,39 +39,51 @@ For more information on the original dataset used, please read the documentation
 
   
 ---
----
-# Original Assignment Details:
 
-## Requirements
-### Completed Analysis Uploaded to GitHub (20 points)
-- Final data analysis contains ample and complete information in README file (10 points)
-- Final repository is acceptable for professional quality presentation (10 points)
-### Visualizations (20 points)
-- 6–8 visualizations of data (at least two per question) (10 points)
-- Clear and accurate labeling of images (5 points)
-- Visualizations supported with ample and precise explanation (5 points)
-### Analysis and Conclusion (20 points)
-- Write-up summarizes major findings and implications at a professional level (5 points)
-- Each question in the project proposal is answered with precise descriptions and findings (5 points)
-- Findings are strongly supported with numbers and visualizations (5 points)
-- Each question response is supported with a well-discerned statistical analysis from lessons (e.g., aggregation, correlation, comparison, summary statistics, sentiment analysis, and time series analysis) (5 points)
-### Group Presentation (20 points)
-- All group members spoke during the presentation (5 points)
-- Group was well prepared (5 points)
-- Presentation is relevant to material (5 points)
-- Presentation maintains audience interest (5 points)
-### Slide Deck (20 points)
-- Slides are visually clean and professional (5 points)
-- Slides are relevant to material (5 points)
-- Slides effectively demonstrate the project (5 points)
-- Slides are clear and maintain audience interest (5 points)  
+## Analysis:
 
-This project will be evaluated against the requirements and assigned a grade according to the following table:
+### Looking at Stance, Aggression, and Sentiment Over Time
+The percent of aggressive tweets is  gradually decreasing over time. The percentage of tweets that support the belief of climate change is increasing overall. The average sentiment for each month fluctuates and contains smaller trends.
 
-|Grade|Points|
-|-----|------|
-|A (+/-)|90+|
-|B (+/-)|80–89|
-|C (+/-)|70–79|
-|D (+/-)|60–69|
-|F (+/-)|< 60|
+Before early 2014, there is higher variability in the data and any trends present. Starting in early 2014, some clear and more steady and positive trends appear in the percentage of tweets that support climate change and that have positive sentiment. Separate research shows that in 2014, the world experienced many climate related natural disaster starting with wildfires in early 2014 in Australia and heat waves in Canada and Alaska. 
+
+Starting in late 2015, the sentiment switches from steadily increasing, to steadily decreasing. The percentage of tweets supporting climate change stops increasing and begins to decrease. The percent of aggressive tweets stops decreasing, and increases slight. These trends end in mid 2017. The start of these trends coincides with the ramping up of the 2016 election cycle which had climate change as a major devicisve talking point/issue. The trend ends in mid-late 2017. A notible climate change event that may have had an import was the US leaving the Paris Climate Agreement in June 2017.
+
+A large jump in the average sentiment and the percent of tweet that believe in climate change occurs in the Fall of 2017, after which the data becomes more variable. The percentage of aggressive tweets begins to decrease again. 
+
+### Comparing the Number of Tweets from Users and Their Stances
+The number of tweets about climate change decreases from 2019 to 2012. After 2012 there is a rapid increase in the number of tweets per year about climate change. The increase appears exponential. The increase in the number of tweets could be due to an increase in the numner of consumers joining Twitter or the increased politcal attention to climate change starting in 2015/2016 in the 2016 election cycle. A rapid increase could also be related to Greta Thunberg entering the international stage in 2018 and garnering a large Twitter following. 
+
+The second graph was made with the same data but uses a logarithmic scale to better examine how the number of believer, neutral, and deniers tweets changed over time. It is clear that the changes are explonential. It is less clear how the number of believer tweets is changing compared to the number of denier tweets. 
+
+### Taking a Closer Look at Stance Over Time
+There is growth in the percentage of believer tweets, but the rate is slowing down. There is a decrease in the percentage of tweets that deny climate change.
+
+If these trends continue, the percent of tweets from believers will reach 100% in 12-15 years, and the percent of denier tweets will reach 0% in 7-8 years. The descrepancy in time could be the neutral tweets. However, are these results due to deniers changing their minds or are deniers leaving Twitter? Or are the number of people joining Twitter who believe in climate change and are active dwarf the number of deniers joning/being active on Twitter? 
+
+### Geographic Trends in Early Climate Denier Tweets
+Climate denial has existed since the late ninties, well before Twitter first became publicly available in 2006.  From our dataset, we learned that tweets about climate denial found their way onto the platform almost from the beginning, with the first tweet from a climate denier on the subject sent in December of that same year.
+
+The above map shows the geolocation of the first 5 tweets about climate change from the stance of "Denier" on each subtopic as shown in the legend to the right.  The locations highlighted with a white circle are the first tweets on each subject, to show the origin point of the conversation.  
+
+What we notice is that most of tweets originate in coastal or near-coastal regions.  From the above analysis, we can also see that many of these tweets are from large, highly populated cities as well.  7 of the first 10 tweets are from the US, 3 are from the same state of North Carolina, and 2 were sent from the same city of Charlotte.
+
+There doesn't seem to be any major discernible pattern to the spread of the topics geographically, and this isn't very surpising given the medium of social media.  It's difficult to determine if this kind of distribution is related to the subject matter of climte change specifically, or to Twitter in general, but it does seem to be an interesting pattern that may merit further study.
+
+### Trends in Climate Denier Sentiment/Aggression Over Time
+This graph shows the total number of tweets from the stance "Denier" across the timeframe of the full dataset, grouped by sentiment level & aggression.  "Sentiment" was a somewhat difficult concept to grasp from the context of the original dataset documentation, but seems to refer to the sentiment of the tweet itself rather than the user's sentiment toward climate change, which is why we see a number of positive sentiment tweets from climate deniers, which would otherwise seem to be an oxymoron.  This means that positive sentiment is associated with people communicating with someone who agrees with them, and negative sentiment would be associated with arguments and disagreements.
+
+What we see from the above graph is that both high and low sentiments are consistently favored across the whole timeframe, where average sentiments consistently remain along the bottom and less common.  This is what we would expect to see on social media sites, especially during times of high engagement, either strong positive or negative emotions being the norm when people are communicating with others, and a lot less neutral statements.
+
+Another slightly more subtle pattern is that those with "Very Low" sentiment have a tendency to be aggressive more often than they are non-aggressive, particularly when the number of tweets are higher, or during "high engagement" time periods.
+
+The dramatic increase in tweets after the beginning of the 2016 presidential campaign is common to users of all stances, suggesting a boost in popularity in Twitter at that point, or at least in the discussion of the subject of climate change on Twitter, but it is not limited to only deniers of climate change only.  This suggests that this graph shows us either the shape of the conversation around climate change, the shape of the popularity of Twitter in general, or some combination of both.
+
+### ANOVA: Relationship Between Stance and Sentiment
+Finally, the above graph shows the results of an ANOVA test to check if there is a relationship between Twitter user stance and sentiment levels.  For this test we returned to the original dataset and took a random sampling of 5% of the total worldwide data (due to filesize constraints) in order to compare all stances.
+
+What we see is a clear, significant difference in the mean sentiment of denier posts in comparison to all other posts from both believers and those expressing no stance on the subject of climate change.  These latter two both average a neutral sentiment, as would be expected, where the mean of the denier tweets falls much lower.  We also found that denier tweets with a sentiment above about 0.85 were likely to be outliers.
+
+While this result is dramatic, it isn't necessarily surprising.  Denier tweets were about 8% of the total 15 million data points in the original dataset, and a minority group is likely to spend time debating with people who disagree with them more often than not simply due to being outnumbered.  However, it could also imply that deniers are spending more time trying to convert those who disagree with them rather than communicating with those who already agree.  Further study would be required to determine more information on that subject, but it is an interesting finding nonetheless.
+
+### 
