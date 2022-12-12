@@ -16,15 +16,13 @@ The purpose of our project was to analyze climate change sentiment through Twitt
 
 ## Project Structure
 
-You can find the main scripts for this project in the Individual_Contributors folder.  Each question was approached by a different team member as listed below:  
+You can find the main script for this project in the root folder called "Final_Project.ipynb", along with the presentations slides called "Final_Project_Slides.pptx".  You can also find each group members' individual code in the Individual_Contributors folder.  Each question was approached by a different team member as listed below:  
 
 >Question 1 - [Jennifer Shulyak](https://github.com/andcetera/Twitter-climate-change-sentiment/blob/main/Individual_Contributors/Question1_Trends_NA.ipynb)  
 >Question 2 - [Becky Klosowski](https://github.com/andcetera/Twitter-climate-change-sentiment/blob/main/Individual_Contributors/Tracking_Deniers_Over_Time.ipynb)  
 >Question 3 - [Joe Moreno](https://github.com/andcetera/Twitter-climate-change-sentiment/blob/main/Individual_Contributors/us_disasters.ipynb)  
 
-Raw data resources and original data splices can be found in the Resources folder, including .py files used to cut the original dataframe down to usable pieces.  These won't function since they are referencing the original 2GB file not included on GitHub due to filesize constraints but are only included for context only.
-
-Images of data visualization can be found in the Images folder.  You can also find a completed copy of the presentation slides at the root level of the repo.
+Raw data resources can be found in the Resources folder, and in the subfolder "sample_cut_references" we have included some of the .py files used to cut the original dataframe down to usable pieces.  These won't function since they are referencing the original 2GB file not included on GitHub due to filesize constraints but are included for context only.  You can also find the individual data visualizations in the Images folder.
 
 ---
 ## Our Original Datasets:
