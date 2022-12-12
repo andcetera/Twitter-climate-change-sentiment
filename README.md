@@ -45,23 +45,23 @@ For more information on the original dataset used, please read the documentation
 ![Question1_Trends](Images/Q1_Trends.png)  
 The percent of aggressive tweets is  gradually decreasing over time. The percentage of tweets that support the belief of climate change is increasing overall. The average sentiment for each month fluctuates and contains smaller trends.
 
-Before early 2014, there is higher variability in the data and any trends present. Starting in early 2014, some clear and more steady and positive trends appear in the percentage of tweets that support climate change and that have positive sentiment. Separate research shows that in 2014, the world experienced many climate related natural disaster starting with wildfires in early 2014 in Australia and heat waves in Canada and Alaska. 
+Before early 2014, there is higher variability in the data and any trends present. Starting in early 2014, some clear and more steady and positive trends appear in the percentage of tweets that support climate change and that have positive sentiment. [Separate research](https://www.bloomberg.com/news/articles/2014-12-22/2014-an-epic-year-for-climate-change-and-other-weather-related-disasters) shows that in 2014, the world experienced many climate related natural disaster starting with wildfires in early 2014 in Australia and heat waves in Canada and Alaska. 
 
-Starting in late 2015, the sentiment switches from steadily increasing, to steadily decreasing. The percentage of tweets supporting climate change stops increasing and begins to decrease. The percent of aggressive tweets stops decreasing, and increases slight. These trends end in mid 2017. The start of these trends coincides with the ramping up of the 2016 election cycle which had climate change as a major devicisve talking point/issue. The trend ends in mid-late 2017. A notible climate change event that may have had an import was the US leaving the Paris Climate Agreement in June 2017.
+Starting in late 2015, the sentiment switches from steadily increasing, to steadily decreasing. The percentage of tweets supporting climate change stops increasing and begins to decrease. The percentage of aggressive tweets stops decreasing, and increases slightly. These trends end in mid 2017. The start of these trends coincides with the ramping up of the 2016 election cycle which had climate change as a major devisive talking point/issue. The trend ends in mid-late 2017. A notible climate change event that may have had an impact was the US leaving the Paris Climate Agreement in June 2017.
 
-A large jump in the average sentiment and the percent of tweet that believe in climate change occurs in the Fall of 2017, after which the data becomes more variable. The percentage of aggressive tweets begins to decrease again.  
+A large jump in the average sentiment and the percentage of tweets that believe in climate change occurs in the Fall of 2017, after which the data becomes more variable. The percentage of aggressive tweets begins to decrease again.  
 
 ## Comparing the Number of Tweets from Users and Their Stances
 ![Q1_Stance_Numbers](Images/Q1_StanceNumbers.png)  
 The number of tweets about climate change decreases from 2019 to 2012. After 2012 there is a rapid increase in the number of tweets per year about climate change. The increase appears exponential. The increase in the number of tweets could be due to an increase in the numner of consumers joining Twitter or the increased politcal attention to climate change starting in 2015/2016 in the 2016 election cycle. A rapid increase could also be related to Greta Thunberg entering the international stage in 2018 and garnering a large Twitter following.  
 
-The second graph was made with the same data but uses a logarithmic scale to better examine how the number of believer, neutral, and deniers tweets changed over time. It is clear that the changes are explonential. It is less clear how the number of believer tweets is changing compared to the number of denier tweets.  
+The second graph was made with the same data but uses a logarithmic scale to better examine how the number of tweets changed over time. It is clear that the changes are explonential. It is less clear how the number of believer tweets is changing compared to the number of denier tweets as the logarithmic scale can be misleading.  
 
 ## Taking a Closer Look at Stance Over Time
 ![Q1_Regression](Images/Q1_Stance_Regression.png)  
 There is growth in the percentage of believer tweets, but the rate is slowing down. There is a decrease in the percentage of tweets that deny climate change.
 
-If these trends continue, the percent of tweets from believers will reach 100% in 12-15 years, and the percent of denier tweets will reach 0% in 7-8 years. The descrepancy in time could be the neutral tweets. However, are these results due to deniers changing their minds or are deniers leaving Twitter? Or are the number of people joining Twitter who believe in climate change and are active dwarf the number of deniers joning/being active on Twitter?  
+If these trends continue, the percent of tweets from believers will reach 100% in 12-15 years, and the percentage of denier tweets will reach 0% in 7-8 years. The descrepancy in time could be the neutral tweets. However, are these results due to deniers changing their minds or are deniers leaving Twitter? Or are the number of people joining Twitter who believe in climate change and are active dwarf the number of deniers joning/being active on Twitter? More research and analysis is required to answer these questions.  
 
 ## Geographic Trends in Early Climate Denier Tweets
 ![Q2_Geographic_Trends](Images/Q2_Earliest-Tweets-Map.png)  
