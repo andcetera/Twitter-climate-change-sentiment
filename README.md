@@ -100,8 +100,8 @@ There is a significant increase of tweets after Hurricane Harvey concluded. Duri
 
 ### 2018 California Wildfires:
 ![Q3_Wildfire](Images/Q3Wildfire.png)  
-Looking at the data of the 2018 California Wildfire tweet activity it shows a trend up after the wildfires had concluded. Considering we really don't know the severity of a wildfire until it is contained or it has concluded, the tweet data two weeks before the wildfire begins, there is minimum tweet activity across all weather and climate topics on Twitter. It's not until the Wildfire concludes that there is a trend up in tweet acitivity acorss all climate related tweets.  
+Looking at the data of the 2018 California Wildfire tweet activity it shows a trend up after the wildfires had concluded. Considering we really don't know the severity of a wildfire until it is contained or it has concluded, in the tweet data two weeks before the wildfire begins there is minimum tweet activity across all weather and climate topics on Twitter. It's not until the Wildfire concludes that there is a trend up in tweet acitivity acorss all climate related tweets.  
 
 ### 2015 Wimberley Flood:
 ![Q3_Flood](Images/Q3Flood.png)  
-The 2015 Wimberley Floods started on May 23, 2015. The data shows that there is a uptick of tweets as the storms and flood trended up as the days went on and the flood began to affect more people. On May 28, there is a significant uptick in tweet activity. Two weeks before the flood occured, there was a decent amount of tweets related to weather and cliumate topics on twitter, with a slight deep days before the flood begins.
+The 2015 Wimberley Floods started on May 23, 2015. The data shows that there is a uptick of tweets as the storms and flood trended up as the days went on and the flood began to affect more people. On May 28, there is a significant uptick in tweet activity. Two weeks before the flood occured, there was a decent amount of tweets related to weather and cliumate topics on twitter, with a slight dip days before the flood begins.
